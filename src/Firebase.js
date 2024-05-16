@@ -7,12 +7,13 @@ import { getStorage, ref, uploadBytes, getDownloadURL ,uploadBytesResumable} fro
 import { useState, useEffect } from "react";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDDNw75k6iQwBOm8woEIOSKEl8PxCorF7s",
-  authDomain: "hoteluploadfile.firebaseapp.com",
-  projectId: "hoteluploadfile",
-  storageBucket: "hoteluploadfile.appspot.com",
-  messagingSenderId: "301377057715",
-  appId: "1:301377057715:web:2c98de7b6e9f3558b2d1c6"
+  apiKey: "<your-api-key>",
+  authDomain: "<your-auth-domain>",
+  projectId: "<your-project-id>",
+  storageBucket: "<your-storage-bucket>",
+  messagingSenderId: "<your-messaging-sender-id>",
+  appId: "<your-app-id>",
+  measurementId: "<your-measurement-id>"
 };
 
 // Initialize Firebase
